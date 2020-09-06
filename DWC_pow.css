@@ -70,15 +70,23 @@ footer {
   background-color: #AAAAAA;
 }
 
+.social i {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .social i {
     width: 100%;
   }
 
-
   main {
     width: 100%;
     margin: 50 auto;
+    display: block;
   }
 
   .content-image1 .content-image2 .content-image3 {
@@ -86,7 +94,6 @@ footer {
   }
 
   .main-content {
-    float: none;
     width: 90%;
     margin: 0 auto 20px auto;
     display: block;
