@@ -24,13 +24,10 @@ main {
   position: relative;
 }
 
-.main-content:nth-child(1) {
-  margin-right: 30px;
+.main-content:nth-child(2) {
+  margin: 0 30px;
 }
 
-.main-content:nth-child(3) {
-  margin-left: 30px;
-}
 
 .content-top {
   padding: 3px;
@@ -102,7 +99,8 @@ main {
     display: block;
   }
 
-  .main-content:nth-child(3) {
-    margin: 0 auto;
+
+  .main-content:nth-child(2){
+    margin: 0 auto 20 auto;
   }
-}
+ }
