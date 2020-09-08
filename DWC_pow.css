@@ -25,7 +25,7 @@ main {
 }
 
 .main-content:nth-child(2) {
-  margin: 0 30px;
+  margin: 0 20px;
 }
 
 
@@ -75,7 +75,6 @@ footer {
 }
 
 main {
-  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -100,7 +99,8 @@ main {
   }
 
 
-  .main-content:nth-child(2){
-    margin: 0 auto 20 auto;
-  }
+  .main-content:nth-child(2){ 
+    margin: 0 auto 20px auto;
+  
+  } 
  }
